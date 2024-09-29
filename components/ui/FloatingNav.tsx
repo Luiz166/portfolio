@@ -41,6 +41,12 @@ export const FloatingNav = ({
     }
   });
 
+  interface NavItem{
+    name: string;
+    link: string;
+    icon?: JSX.Element;
+  }
+
   return (
     <AnimatePresence mode="wait">
       <motion.div
@@ -60,7 +66,7 @@ export const FloatingNav = ({
           className
         )}
       >
-        {navItems.map((navItem: any, idx: number) => (
+        {navItems.map((navItem: NavItem, idx: number) => (
           <Link
             key={`link=${idx}`}
             href={navItem.link}
