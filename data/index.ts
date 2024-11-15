@@ -80,7 +80,8 @@ export const navItems = [
       title: 'Fitness Tracker',
       description: "App para monitorar seu progresso fitness.Foi usado React Native e o framework Expo",
       img: "/em_desenvolvimento.jpg",
-      iconLists: ["/re.svg"]
+      iconLists: ["/re.svg"],
+      link: "https://github.com/Luiz166/FitnessTrackerApp"
     }
   ];
 
