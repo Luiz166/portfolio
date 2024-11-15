@@ -69,12 +69,19 @@ export const navItems = [
     },
     {
       id: 2,
-      title: 'Eventify',
-      description: "Aplicação de gestão de eventos comemorativos",
-      img: "",
-      iconLists: ["/re.svg", "/tail.svg", "/next.svg", "/psql.svg", "/prisma.svg"],
-      link: "https://github.com/luiz166/",
+      title: 'Recify',
+      description: "Aplicação de pesquisa de receitas culinárias, usando a api Edaman e a YoutubeData",
+      img: "/recify.png",
+      iconLists: ["/re.svg", "/tail.svg", "/next.svg"],
+      link: "https://github.com/luiz166/foodrecipe-next",
     },
+    {
+      id: 3,
+      title: 'Fitness Tracker',
+      description: "App para monitorar seu progresso fitness.Foi usado React Native e o framework Expo",
+      img: "/em_desenvolvimento.jpg",
+      iconLists: ["/re.svg"]
+    }
   ];
 
   export const companies = [
